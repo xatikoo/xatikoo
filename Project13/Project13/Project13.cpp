@@ -15,7 +15,7 @@ int main()
     while (strin >> word)
     {
         if (word.length() >= 5) {
-            std::reverse(word.begin(), word.end());
+            reverse(word.begin(), word.end());
         }
         strout += word + ' ';
     }
